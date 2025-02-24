@@ -22,7 +22,7 @@ const noTexts = [
   "？？？你认真的吗…",
   "要不再想想？",
   "不许选这个！ ",
-  "我会很伤心…",
+  "你真的要摸鱼嘛…",
   "不行:(",
 ];
 
@@ -57,7 +57,7 @@ noButton.addEventListener("click", function () {
 });
 
 // Yes 按钮点击后，进入表白成功页面
-const loveTest = `!!!谢谢你!! ( >᎑<)♡︎ᐝ  ${
+const loveTest = `!!!你真棒!! ( >᎑<)♡︎ᐝ  ${
   username ? `${safeUsername}  ♡︎ᐝ(>᎑< )` : ""
 }`;
 
