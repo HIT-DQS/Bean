@@ -29,7 +29,7 @@ const noTexts = [
 noButton.addEventListener("click", function () {
   clickCount++;
 
-  let yesSize = 1 + clickCount * 1.2;
+  let yesSize = 1 + clickCount * 0.5;
   yesButton.style.transform = `scale(${yesSize})`;
 
   let noOffset = clickCount * 25;
@@ -65,5 +65,6 @@ yesButton.addEventListener("click", function () {
   document.querySelector(".yes-text").innerText = loveTest;
   document.body.style.overflow = "hidden";
 });
+
 
 
