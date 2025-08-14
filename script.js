@@ -32,7 +32,7 @@ noButton.addEventListener("click", function () {
   let yesSize = 1 + clickCount * 1.2;
   yesButton.style.transform = `scale(${yesSize})`;
 
-  let noOffset = clickCount * 50;
+  let noOffset = clickCount * 25;
   noButton.style.transform = `translateX(${noOffset}px)`;
 
   let moveUp = clickCount * 25;
@@ -46,7 +46,7 @@ noButton.addEventListener("click", function () {
   if (clickCount === 1) mainImage.src = "shocked.png"; // 震惊
   if (clickCount === 2) mainImage.src = "think.png"; // 思考
   if (clickCount === 3) mainImage.src = "angry.png"; // 生气
-  if (clickCount === 4) mainImage.src = "emo.png"; // 哭
+  if (clickCount === 4) mainImage.src = "emo.png"; // emo
   if (clickCount >= 5) mainImage.src = "emo.png"; // 之后一直emo
 });
 
@@ -65,4 +65,5 @@ yesButton.addEventListener("click", function () {
   document.querySelector(".yes-text").innerText = loveTest;
   document.body.style.overflow = "hidden";
 });
+
 
