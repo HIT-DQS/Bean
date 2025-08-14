@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    width: 90%; /* 适应手机屏幕宽度 */
+    width: 75%; /* 适应手机屏幕宽度 */
     max-width: 500px; /* 最大宽度限制 */
 }
 
@@ -106,6 +106,7 @@ button {
         width: 300px; /* 固定图片宽度 */
     }
 }
+
 
 
 
